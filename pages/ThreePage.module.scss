@@ -1,0 +1,34 @@
+.scroll-value {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.dev-console {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  background-color: #213121;
+  color: #fff;
+  overflow: auto;
+  padding: 14px;
+  z-index: 9999;
+}
+
+.section1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background: red;
+}
